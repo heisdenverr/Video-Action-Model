@@ -1,7 +1,3 @@
-## Resources 
-## Link to dataset: {{https://www.kaggle.com/datasets/matthewjansen/ucf101-action-recognition}}
-## Preparing Video Data for Training:{{https://medium.com/@naneettyagi2004/preparing-video-data-for-training-a-pytorch-guide-fc644ee9e64c}}
-
 ## Pretrained [ r3d18]
 
 # 🎥 Video Action Recognition with PyTorch (R3D-18)
@@ -29,7 +25,7 @@ A structured, versioned learning & experimentation repo for **video action recog
 | `v0.4`  | Training loop + metrics                             |
 | `v1.0`  | Clean pipeline + reproducibility                    |
 
-> 📍 Update this table whenever a **conceptual milestone** is reached.
+> 📍 Updating this table whenever a **conceptual milestone** is reached.
 
 ---
 
@@ -112,7 +108,7 @@ Video → Decode → Frame Sampling → Crop/Resize → Normalize → Model
 
 ---
 
-## 🧪 Common Pitfalls (Logged)
+## Common Pitfalls (Logged)
 
 * ❌ `Resize(128, 171)` → wrong argument order
 * ❌ Forgetting PyAV (`pip install av`)
@@ -121,7 +117,7 @@ Video → Decode → Frame Sampling → Crop/Resize → Normalize → Model
 
 ---
 
-## 🧩 Add‑Ons (Planned Extensions)
+## Add‑Ons (Planned Extensions)
 
 ### Dataset
 
@@ -144,9 +140,9 @@ Video → Decode → Frame Sampling → Crop/Resize → Normalize → Model
 
 ---
 
-## 📐 Templates
+## Templates
 
-### 🔹 Experiment Log Template
+### Experiment Log Template
 
 ```text
 Experiment ID:
@@ -164,7 +160,7 @@ Notes:
 
 ---
 
-### 🔹 Dataset Checklist
+### Dataset Checklist
 
 ```text
 [ ] Folder structure verified
@@ -176,7 +172,7 @@ Notes:
 
 ---
 
-### 🔹 Debug Checklist
+### Debug Checklist
 
 ```text
 [ ] Single batch forward pass works
@@ -187,15 +183,15 @@ Notes:
 
 ---
 
-## 📌 Future Notes
+## Future Notes
 
 * torchvision video decoding will be deprecated → migrate to **TorchCodec**
-* Pre‑extracting frames is faster and more reproducible
+* Pre‑extracting frames is faster and more reproducible -> my method only for inference only ( slower for batch processing )
 * Most research pipelines avoid on‑the‑fly decoding
 
 ---
 
-## 🧠 Learning Philosophy
+## Learning Philosophy
 
 > *"Understand the data first. The model is just the last consumer."*
 
@@ -207,6 +203,6 @@ This repo prioritizes:
 
 ---
 
-## 🏁 Status
+## Status
 
-🚧 Actively evolving — this README doubles as a **project log**.
+ Actively evolving — this README doubles as a **project log for me**.

@@ -186,7 +186,7 @@ Notes:
 ## Future Notes
 
 * torchvision video decoding will be deprecated → migrate to **TorchCodec**
-* Pre‑extracting frames is faster and more reproducible -> my method only for inference only ( slower for batch processing )
+* Pre‑extracting frames is faster and more reproducible -> my method, adviseable for inference only ( slower for batch processing )
 * Most research pipelines avoid on‑the‑fly decoding
 
 ---
